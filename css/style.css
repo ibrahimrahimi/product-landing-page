@@ -1,0 +1,167 @@
+/*  body */
+body{
+    background-color: #fdfff9;
+    text-align: center;
+    margin: 0px;
+    display: block;
+}
+
+/* header */
+header{
+    overflow: hidden;
+    padding: 10px 10px;  
+    background-color: #174668; 
+    border-bottom: 1px solid #002239; 
+}
+
+#logo{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    top: -16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#nav-bar{
+    float: right;
+    margin: 10px;
+    padding: 5px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    bottom: -13px;
+    padding: 0px 15px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#nav-bar a:hover{
+    background-color: #239fd4;
+    color: #fdfff9;
+    border-radius: 3px;
+}
+
+#header-img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #487b72;
+    border-radius: 50%;
+}
+
+
+/* home section */
+#home{
+    height: 400px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #f6ffcf;
+    margin-top: -20px;
+    padding: 20px;
+}
+
+
+/* videos section */
+
+#videos{
+    height: 300px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #cee8d6;
+}
+
+#video {
+    height: 280px;
+    width: auto;
+    margin: 10px auto;
+}
+
+
+
+/* products section */
+#products{
+    height: 300px;
+    width: 100%;
+    background-color: #a4d7ce;
+    display: block;
+}
+
+.image{
+    height: 90px;
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.des{
+    height: 90px;
+    width: 70%;
+    display: inline-block;
+    text-align: left;
+}
+
+
+/* services section */
+#services{
+    height: 300px;
+    width: 100%;
+    background-color: #9bc3d3;
+    display: block;
+}
+
+.tab{
+    display: inline-block;
+}
+
+.heading{
+    height: 30px;
+    width: 250px;
+}
+
+.detail{
+    height: 200px;
+    width: 250px;
+}
+
+/* footer section */
+footer{
+    overflow: hidden;
+    width: 100%;
+    background-color: #174668;
+}
+
+.footer-nav{
+    position: relative;
+    float: right;
+    padding: 5px;
+    margin: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer p{
+    position: relative;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    color: #fff;
+    font-size: 20px;
+}
