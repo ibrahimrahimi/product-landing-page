@@ -3,11 +3,13 @@
     <head>
         <title>Fun Club</title>
         <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body>
         <header id="header">
             <div id="logo">
-                <img id="header-img" src="img/fun2.png" alt="Fun Club">
+                <img id="header-img" src="img/cute.gif" alt="Fun Club">
                 <a href="#">Fun Club</a>
             </div>
             <div>
@@ -19,93 +21,123 @@
                 </nav>
             </div>
         </header>
-        <section id="home">
-            <div id="title">
-                <h1>Funny Programmer Lifestyle Vidoes</h1>
-            </div>
-            <div class="form">
-                <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
-                    <input type="email" name="email" id="email" placeholder="Enter your email">
-                    <input type="submit" id="submit" value="Subscribe">
-                </form>
-            </div>
-            <div>
-                <div>
-                    <h1>Test Title About Company</h1>
-                </div>
-                <div>
+        <section class="container">
+            <section id="home">
+                <div class="home-elem">
+                    <h1 id="title">Funny Programmer Lifestyle Vidoes</h1>
                     <p><strong>Fun Club</strong> is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries, but also the leap into electronic typesetting,
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </p>
                 </div>
-            </div>
-        </section>
-        <section id="videos">
-            <div id="video-div">
-                <video id="video" controls>
-                    <source src="video/programmer.mp4" type="video/mp4">
-                    your browser does not support video.
-                </video>
-            </div>
-        </section>
-        <section id="products">
-            <div class="row">
-                <div class="image">
-                    <img src="img/fun1.png" alt="Firt Image">
+            </section>
+            <section id="videos">
+                <div id="video-des">
+                    <p><strong>Before</strong> watching this vedio pleas read this text. Because you watching this video may cause some mental problems or scare.
+                        There are many reasons for this recommandation. watching thid vedio pleas read this text. Because you watching this video may cause some mental problems or scare.
+                        There are many reasons for this recommandation. watching thid vedio pleas read this text. Because you watching this video may cause some mental problems or scare.
+                        There are many reasons for this recommandation.watching thid vedio pleas read this text. Because you watching this video may cause some mental problems or scare.
+                        There are many reasons for this recommandation. watching thid vedio pleas read this text. Because you watching this video may cause some mental problems or scare.
+                        There are many reasons for this recommandation.you can refer to following link for more information about this issue. <a href="#"></a>read more on Wikipedia</p>
                 </div>
-                <div class="des">
-                    <h2>Test Ttitle</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div id="video-div">
+                    <video id="video" controls>
+                        <source src="video/programmer.mp4" type="video/mp4">
+                        your browser does not support video.
+                    </video>
                 </div>
-            </div>
-            <div class="row">
-                <div class="image">
-                    <img src="img/fun3.png" alt="Second Image">
+            </section>
+            <section id="products">
+                <div class="row">
+                    <div class="image">
+                        <img src="img/1.jpg" alt="Firt Image">
+                    </div>
+                    <div class="des">
+                        <h3>Test Ttitle</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p><a href="">Read more...</a></p>
+                    </div>
                 </div>
-                <div class="des">
-                    <h2>Test Ttitle</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="row">
+                    <div class="image">
+                        <img src="img/2.jpg" alt="Second Image">
+                    </div>
+                    <div class="des">
+                        <h3>Test Ttitle</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p><a href="">Read more...</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="image">
-                    <img src="img/fun4.png" alt="Third Image">
+                <div class="row">
+                    <div class="image">
+                        <img src="img/5.jpg" alt="Third Image">
+                    </div>
+                    <div class="des">
+                        <h3>Test Ttitle</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p><a href="">Read more...</a></p>
+                    </div>
                 </div>
-                <div class="des">
-                    <h2>Test Ttitle</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </section>
+            <section id="subscribe">
+                    <div class="subscribe">
+                        <h3>If you want to got more fun clips subscribe to our website.</h3>
+                    </div>
+                    <div class="subscribe" class="form">
+                        <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                            <input type="submit" id="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </section>
+            <section id="services">
+                <div class="tab">
+                    <div class="heading">
+                        <img src="img/4.jpg" alt="Test Alt">
+                    </div>
+                    <div class="detail">
+                        <h3>Test Heading</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section id="services">
-            <div class="tab">
-                <div class="heading">
-                    <h2>Test Heading</h2>
+                <div class="tab">
+                        <div class="heading">
+                            <img src="img/7.jpg" alt="Test Alt">
+                        </div>
+                        <div class="detail">
+                            <h3>Test Heading</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+                        </div>
+                    </div>
+                <div class="tab">
+                    <div class="heading">
+                        <img src="img/3.jpg" alt="Test Alt">
+                    </div>
+                    <div class="detail">
+                        <h3>Test Heading</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage. This is a test line to test somthing and we want to do ....</p>
+                    </div>
                 </div>
-                <div class="detail">
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                <div class="tab">
+                    <div class="heading">
+                        <img src="img/6.jpg" alt="Test Alt">
+                    </div>
+                    <div class="detail">
+                        <h3>Test Heading</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="tab">
-                <div class="heading">
-                    <h2>Test Heading</h2>
+                <div class="tab">
+                    <div class="heading">
+                        <img src="img/4.jpg" alt="Test Alt">
+                    </div>
+                    <div class="detail">
+                        <h3>Test Heading</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                    </div>
                 </div>
-                <div class="detail">
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                </div>
-            </div>
-            <div class="tab">
-                <div class="heading">
-                    <h2>Test Heading</h2>
-                </div>
-                <div class="detail">
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                </div>
-            </div>
+            </section>
+            
         </section>
         <footer>
             <p>&copy; Copyright: 2019 </p>
@@ -113,6 +145,6 @@
             <a class="footer-nav" href="#services">Services</a>
             <a class="footer-nav" href="#">Privacy</a>
         </footer>
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
     </body>
 </html>
