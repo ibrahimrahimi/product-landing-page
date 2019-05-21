@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 /*  body */
 body{
     background-color: #f6ffcf;
@@ -10,7 +14,8 @@ header{
     overflow: hidden;
     padding: 10px 10px;  
     background-color: #fbfeff; 
-    border-bottom: 1px solid #e1e4e6; 
+    border-bottom: 1px solid #EAEAEB; 
+    text-align: right;
     position: fixed;
     width: 100%;
     top: 0;  
@@ -33,14 +38,29 @@ header{
     font-weight: bold;
 }
 
-#nav-bar{
+#menu{
     float: right;
     margin: 10px;
     margin-right: 30px;
     padding: 5px;
 }
 
-#nav-bar a {
+#menu span{
+    color: #54D17A;
+}
+
+.toggle{
+    float: right;
+    margin: 30px 10px 30px 0px;
+    font-size: 26px; 
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+#menu a {
     text-decoration: none;
     color: rgb(95, 91, 91);
     position: relative;
@@ -50,7 +70,7 @@ header{
     line-height: 200%;
 }
 
-#nav-bar a:hover{
+#menu a:hover{
     background-color: #239fd4;
     color: #fdfff9;
     border-radius: 3px;
@@ -260,4 +280,92 @@ footer p{
         margin: 0 5px;
         width: 100%;
     }
+}
+
+/* Mobile */
+@media only screen and (max-width: 420px){
+    .toggle{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .toggle label{
+        cursor: pointer;
+    }
+
+    #menu{
+        text-align: center;
+        width: 100%;
+        margin: 5px 0px;
+        margin-right: 0px;
+        padding: 5px 0px;
+        display: none;
+    }
+
+    #header{
+        padding: 0;
+    }
+
+    #menu a{
+        display: block;
+        border: 1px solid #EAEAEB;  
+    }
+
+    #logo{
+        margin-top: 20px;
+    }
+
+    #home{
+        padding: 10px;
+        line-height: 160%;
+    }
+
+    #header img{
+        object-fit: scale-down;
+        margin: 0px;
+    }
+
+    #home-element {
+        width: 100%;
+    }
+
+    #title{
+        font-size: 16px;
+        padding-top: 0px;
+    }
+
+    .home-elem p{
+        font-size: 12px;
+    }
+
+    #videos{
+        padding: 10px 0px;
+    }
+
+    #video-des{
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    #video-div{
+        height: 400px;
+        line-height: 160%;
+    }
+
+    #video{
+        height: 400px;
+        line-height: 160%;
+        margin: 5px auto;
+    }
+
+    #products{
+        padding: 10px;
+        line-height: 160%;
+    }
+
+    .des{
+        font-size: 12px;
+        
+    }
+    
 }

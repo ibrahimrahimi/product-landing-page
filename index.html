@@ -3,7 +3,8 @@
     <head>
         <title>Fun Club</title>
         <link rel="stylesheet" href="css/style.css">
-        <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+        <meta charset='utf-8'>         
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body>
@@ -12,16 +13,21 @@
                 <img id="header-img" src="img/cute.gif" alt="Fun Club">
                 <a href="#">Fun Club</a>
             </div>
+            <div class="toggle">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" onclick="myFunction()"/>
+            </div>
             <div>
-                <nav id="nav-bar">
+                <nav id="menu" >
                     <a href="#home" class="nav-link">Home</a>
                     <a href="#videos" class="nav-link">Videos</a>
                     <a href="#products" class="nav-link">Products</a>
                     <a href="#services" class="nav-link">Services</a>
+                    <a href="#" class="nav-link"><Span>Free Trail</Span></a>
                 </nav>
             </div>
         </header>
-        <section class="container">
+        <section class="container">ss
             <section id="home">
                 <div class="home-elem">
                     <h1 id="title">Funny Programmer Lifestyle Vidoes</h1>
@@ -146,5 +152,6 @@
             <a class="footer-nav" href="#">Privacy</a>
         </footer>
         <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+        <script src="js/main.js"></script>
     </body>
 </html>
