@@ -158,7 +158,6 @@ header{
     line-height: 200%;
     width: auto;
     max-width: 100%;
-    min-width: 320px;
     flex-wrap: wrap;
 }
 
@@ -194,7 +193,6 @@ header{
     line-height: 200%;
     width: auto;
     max-width: 100%;
-    min-width: 320px;
     flex-wrap: wrap;
 }
 
@@ -205,10 +203,6 @@ header{
     width: 350px;
 }
 
-.heading{
-    border: 1px solid #ccc;
-    
-}
 
 .heading img{
     width: 100%;
@@ -231,7 +225,7 @@ header{
 
 #email{
     width: 340px;
-    height: 25px;
+    height: 35px;
     padding: 5px;
     margin: 10px;
     border: 1px solid #F5E4BB;
@@ -359,6 +353,7 @@ footer p{
     }
 
     #products{
+        width: 100%;
         padding: 10px;
         line-height: 160%;
     }
@@ -367,5 +362,84 @@ footer p{
         font-size: 12px;
         
     }
+
+    .row{
+        margin: 0px;
+        width: 420px;
+    }
+
+    .row a {
+        font-size: 12px;
+    }
+
+
+    #subscribe{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .subscribe{
+        width: 100%;
+    }
+
+    #subscribe h3{
+        margin-top: -10px;
+    }
+
+
+    #email{
+        width: 100%;
+        height: 35px;
+        margin: 10px auto;
+    }
+
+    #submit{
+        width: 100%;
+        margin: 10px auto; 
+    }
+
+    #services{
+        width: 100%;
+        padding: 10px;
+        line-height: 160%;
+    }
+
+    .tab{
+        line-height: 160%;
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .detail {
+        font-size: 12px;
+        line-height: 160%;
+    }
+
+    footer{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    footer p{
+        padding: 10px;
+        margin: 0px;
+        display: block;
+        float: none;
+        border-bottom: 1px solid #CAD8EB;
+    }
+
+    .footer-nav{
+        padding:10px;
+        margin: 0px;
+        display: block;
+        float: none;
+        border-bottom: 1px solid #CAD8EB;
+    }
+
+
+
+
+
     
 }
