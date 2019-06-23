@@ -23,7 +23,7 @@ header{
 
 #logo{
     float: left;
-    margin: 10px;
+    margin: 18px 10px 10px 10px;
     margin-left: 30px;
     padding: 5px;
 }
@@ -48,18 +48,18 @@ header{
 #menu span{
     color: #54D17A;
 }
-
+#menu span:hover{
+    color: #FF2B63;
+}
 .toggle{
     float: right;
     margin: 30px 10px 30px 0px;
     font-size: 26px; 
     display: none;
 }
-
 #toggle {
     display: none;
 }
-
 #menu a {
     text-decoration: none;
     color: rgb(95, 91, 91);
@@ -69,27 +69,22 @@ header{
     font-size: 16px;
     line-height: 200%;
 }
-
 #menu a:hover{
-    background-color: #239fd4;
-    color: #fdfff9;
+    background-color: #F2F2F2;
+    color: #FF2B63;
     border-radius: 3px;
 }
-
 #header-img{
     height: 40px;
     width: 40px;
     border: 1px solid #487b72;
     border-radius: 50%;
 }
-
-
 .container {
     width: 100%;
     margin: 0px;
     background-color: #FFF;
 }
-
 /* home section */
 #home{
     display: flex;
@@ -270,23 +265,78 @@ footer p{
 
 /* Media query section */
 @media only screen and (max-width: 768px){
-    #home {
-        margin: 0 5px;
-        width: 100%;
+    #logo{
+        margin: 25px 0px 5px 0px;  
     }
+    #logo a{
+        font-size: 16px;
+    } 
+    #header-img{
+        height: 35px;
+        width: 35px;
+    }
+    #menu{
+        margin: 16px 0px 0px 0px;
+        padding: 5px 0px;
+    }
+    #menu a{
+        font-size: 14px;
+        padding: 0px 3px;
+    }
+    #home{
+        width: 100%;
+        padding: 20px 30px;
+        padding-right: 70px;
+    }
+    #title{
+        font-size: 24px;
+        margin-top: 80px;
+    }
+    #video-des {
+        padding: 20px 70px;
+        text-align: justify;
+    }
+    #products{
+        padding: 20px 10px;
+    }
+    .row{
+        width: calc((100%-100)/2);
+        margin: 15px 0px;
+        padding: 0px 10px;
+    }
+    #subscribe{
+        padding: 25px 20px;
+    }
+    #email{
+        width: 325px;
+    }
+    #submit{
+        width: 80px;
+    }
+    #services{
+        padding: 20px 10px;
+    }
+    .tab{
+        width: calc((100%-100)/2);
+        margin: 15px 0px;
+        padding: 0px 10px;
+    }
+    .footer-nav{
+        padding: 10px 5px;
+        margin: 16px 5px;
+    }
+    
 }
 
 /* Mobile */
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 480px){
     .toggle{
         display: block;
         margin-right: 20px;
     }
-
     .toggle label{
         cursor: pointer;
     }
-
     #menu{
         text-align: center;
         width: 100%;
@@ -295,132 +345,105 @@ footer p{
         padding: 5px 0px;
         display: none;
     }
-
     #header{
         padding: 0;
     }
-
     #menu a{
         display: block;
         border: 1px solid #EAEAEB;  
     }
-
     #logo{
         margin-top: 20px;
     }
-
     #home{
         padding: 10px;
         line-height: 160%;
     }
-
     #header img{
         object-fit: scale-down;
         margin: 0px;
     }
-
-    #home-element {
+    #home-element{
         width: 100%;
     }
-
     #title{
         font-size: 16px;
         padding-top: 0px;
     }
-
     .home-elem p{
         font-size: 12px;
     }
-
     #videos{
         padding: 10px 0px;
     }
-
     #video-des{
         padding: 10px;
         font-size: 12px;
     }
-
     #video-div{
         height: 400px;
         line-height: 160%;
     }
-
     #video{
         height: 400px;
         line-height: 160%;
         margin: 5px auto;
     }
-
     #products{
         width: 100%;
         padding: 10px;
         line-height: 160%;
     }
-
     .des{
         font-size: 12px;
         
     }
-
     .row{
         margin: 0px;
-        width: 420px;
+        width: 480px;
     }
 
-    .row a {
+    .row a{
         font-size: 12px;
     }
-
-
     #subscribe{
         width: 100%;
         padding: 10px;
     }
-
     .subscribe{
         width: 100%;
     }
-
     #subscribe h3{
         margin-top: -10px;
     }
-
-
     #email{
         width: 100%;
         height: 35px;
         margin: 10px auto;
     }
-
     #submit{
         width: 100%;
         margin: 10px auto; 
     }
-
     #services{
         width: 100%;
         padding: 10px;
         line-height: 160%;
     }
-
     .tab{
         line-height: 160%;
         width: 100%;
         margin: 10px 0px;
     }
-
-    .detail {
+    .detail{
         font-size: 12px;
         line-height: 160%;
     }
-
     footer{
         width: 100%;
         display: block;
         text-align: center;
     }
-
     footer p{
         padding: 10px;
         margin: 0px;
@@ -428,18 +451,11 @@ footer p{
         float: none;
         border-bottom: 1px solid #CAD8EB;
     }
-
     .footer-nav{
         padding:10px;
         margin: 0px;
         display: block;
         float: none;
         border-bottom: 1px solid #CAD8EB;
-    }
-
-
-
-
-
-    
+    }  
 }
