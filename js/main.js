@@ -1,6 +1,6 @@
 let isOpen = false;
 function myFunction() {
-    var x = document.getElementById("menu");
+    var x = document.getElementById("nav-bar");
     console.log(x)
     if (isOpen) {
         x.style.display = "none";
